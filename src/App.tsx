@@ -1,7 +1,9 @@
+import { Hello } from "./components/Hello";
+
 export function App() {
     return (
         <div>
-            App
+            <Hello message="World" />
         </div>
     );
 }
